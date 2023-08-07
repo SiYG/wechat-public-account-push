@@ -13,9 +13,6 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
-  PROVINCE: '广东',
-  CITY: '广州',
-
   USERS: [
     {
       // 想要发送的人的名字
@@ -26,6 +23,8 @@ const USER_CONFIG = {
       useTemplateId: 'NnRGcq_3p5gyTFru1KHWYmZMGDMF7BOrDImxKS77afo',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-21',
+      province: '广东',
+      city: '广州',
       festivals: [
         // // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         // {
